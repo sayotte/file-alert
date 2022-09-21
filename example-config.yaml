@@ -1,0 +1,12 @@
+smtp:
+  username: myname@gmail.com
+  password: "SeriouslyExcellentPassphrase"
+  host: smtp.gmail.com
+  port: 587
+message:
+  subject: "New file!"
+  from: myname@gmail.com
+  fromNickname: "Directory watcher bot"
+  to: myname@gmail.com
+  toNickname: "myself"
+watchPath: . # watches the directory the tool is invoked in
